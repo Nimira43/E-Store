@@ -29,7 +29,7 @@ const goals = [
   },
   {
     icon: <GrUserExpert />,
-    text: 'Writing Good Tests & Following Best Practices',
+    text: 'Writing Good Tests and Following Best Practices',
   },
   {
     icon: <GrKey />,
