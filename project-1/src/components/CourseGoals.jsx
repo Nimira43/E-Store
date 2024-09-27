@@ -10,41 +10,41 @@ import {
 import CourseGoal from './CourseGoal'
 import classes from './CourseGoals.module.css'
 
-const GOALS = [
+const goals = [
   {
     icon: <GrInstall />,
-    text: 'Learn how to install & start Cypress',
+    text: 'Install and Start Cypress',
   },
   {
     icon: <GrEdit />,
-    text: 'Learn how to write tests with Cypress',
+    text: 'Writing Tests with Cypress',
   },
   {
     icon: <GrTerminal />,
-    text: 'Understand the core Cypress features & commands',
+    text: 'Core Cypress Features and Commands',
   },
   {
     icon: <GrResources />,
-    text: 'Customize & configure Cypress for your requirements',
+    text: 'Customize and Configure Cypress',
   },
   {
     icon: <GrUserExpert />,
-    text: 'Learn how to write good tests & follow best practices',
+    text: 'Writing Good Tests & Following Best Practices',
   },
   {
     icon: <GrKey />,
-    text: 'Dive into more complex problems - e.g., user authentication testing',
+    text: 'More Complex Problems',
   },
 ]
 
 function CourseGoals() {
   return (
     <ul className={classes.goals}>
-      {GOALS.map((goal) => (
+      {goals.map((goal) => (
         <CourseGoal key={goal.text} {...goal} />
       ))}
     </ul>
   )
 }
 
-export default CourseGoals;
+export default CourseGoals
