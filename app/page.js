@@ -1,7 +1,7 @@
-export default function page() {
+export default function Home() {
   return (
     <div>
-      <h1>The Shop</h1>
+      <h1>La Tienda</h1>
     </div>
   )
 }
